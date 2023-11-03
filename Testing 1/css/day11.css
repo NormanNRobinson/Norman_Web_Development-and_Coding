@@ -1,0 +1,23 @@
+p.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline overline solid red;
+    color:#00ff
+}
+p.content{
+    text-transform: uppercase;
+    text-align: justify;
+    text-indent: 30px;
+    color: rgb(0, 64, 52);
+    background-color: green;
+}
+.box{
+    height:400px;
+    border: 2px solid black;
+    background: url(../img/330px-Gardenia_Cacnea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(130deg, #0085ca 0,#0085ca 50%,#78be20 50%, #78be20);*/
+}

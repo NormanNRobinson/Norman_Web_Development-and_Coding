@@ -1,0 +1,6 @@
+.nav-item:hover{
+    background-color: yellow;
+}
+.nav-item:hover .nav-link{
+    color: black;
+}

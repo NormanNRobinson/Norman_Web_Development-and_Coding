@@ -1,0 +1,33 @@
+.nav-item :hover{
+    background-color: orange;
+    border-radius: 30%;
+}
+.nav-link :hover{
+    color: white;
+}
+.nav-link{
+    font-size: x-large;
+}
+.nav-item{
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.container-fluid{
+    padding-right: 70px;
+    padding-left: 50px;
+}
+.col-5{
+    padding-left: 110px;
+    padding-top: 110px;
+}
+.skate{
+font-size: 4.5em;
+padding-top: 60px;
+}
+.skb{
+   line-height: 85px;
+}
+.nav-link:active{
+    background-color: orange;
+}

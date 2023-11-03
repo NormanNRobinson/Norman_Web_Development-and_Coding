@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+}
+p{
+    background-color: blue;
+    color: white;
+}
+.content{
+    background-color: purple;
+}
+.image{
+    width: 100%;
+    height: 500px;
+}
+#box1{
+    width: 40%;
+    height: 400px;
+    float: left;
+    border: solid 2px black;
+}
+#box2{
+    width: 40%;
+    height: 500px;
+    float: left;
+    border: dashed 5px black;
+}
+#box1,#box2{
+    background-color: red;
+}
+.box3{
+    clear: both;
+}
+.box3>p{
+    background-color: beige;
+    color: blue;
+}
+.box3 h3{
+    background-color: beige;
+    color: red;
+}
+p+p{
+    text-transform: uppercase;
+}
+input[type="text"]{
+    background-color: green;
+}
+input[type="number"]{
+    background-color: orange;
+}
+ul li:hover{
+background-color: yellow;
+}
